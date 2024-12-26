@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arah Qiblat</title>
+</head>
+<body>
+    <h1>Tentukan Lokasi</h1>
+    <form method="POST">
+        <div>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+        </div>
+        <div>
+            <label for="auto_detect">Deteksi Otomatis:</label>
+            <input type="checkbox" id="auto_detect" name="auto_detect">
+        </div>
+        <div>
+            <label for="lintang">Lintang:</label>
+            <input type="number" id="lintang" name="lintang" step="0.0001" placeholder="Masukkan Lintang">
+        </div>
+        <div>
+            <label for="bujur">Bujur:</label>
+            <input type="number" id="bujur" name="bujur" step="0.0001" placeholder="Masukkan Bujur">
+        </div>
+        <button type="submit">Hitung Arah Qiblat</button>
+    </form>
+</body>
+</html>
